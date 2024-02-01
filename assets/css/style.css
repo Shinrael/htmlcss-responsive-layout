@@ -315,3 +315,26 @@ header .container{
     width: 60%;
   }
 }
+
+/* Get Started */
+
+#get-started{
+  background-color: #9792E4;
+  justify-content: center;
+  align-items: center;
+}
+
+#get-started .card{
+  height: 480px;
+}
+
+#get-started .container{
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width:1200px){
+  #get-started .container{
+    width: 60%;
+  }
+}
