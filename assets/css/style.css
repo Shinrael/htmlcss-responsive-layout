@@ -333,8 +333,55 @@ header .container{
   margin-bottom: 60px;
 }
 
+@media screen and (min-width:768px){
+  #get-started .container{
+    width: 80%;
+  }
+}
+
 @media screen and (min-width:1200px){
   #get-started .container{
-    width: 60%;
+    width: 50%;
+  }
+}
+
+/* Footer */
+
+footer{
+  background-color: #333333;
+  color: white;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container{
+  text-align: center;
+  font-size: .9rem;
+}
+
+footer span{
+  padding-top: 60px;
+}
+
+footer span a,
+footer span p{
+  display: inline;
+  margin: 0 1px;
+}
+
+footer span a{
+  color: #9792E4;
+}
+
+@media screen and (min-width:768px){
+  footer .container{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:1200px){
+  footer .container{
+    width: 32%;
   }
 }
