@@ -6,4 +6,64 @@
 
 body{
   font-family: 'PT Sans', sans-serif;
+  background-color: white;
 }
+
+.flex{
+  display: flex;
+}
+
+.container{
+  width: 90%;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+/* Header */
+
+header{
+  background-color: #0084FD;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container{
+  
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+}
+
+.logo{
+  width: 30%;
+  height: 90%;
+  
+}
+
+.menu-panino{
+  width: 70%;
+  height: 90%;
+  display: block;
+}
+
+.menu{
+  width: 70%;
+  height: 90%;
+  display: none;
+}
+
+@media screen and (min-width:1200px){
+  .menu-panino{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+}
+
+/* Hero */
+
+
