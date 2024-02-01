@@ -202,3 +202,52 @@ header .container{
     height: 280px;
   }
 }
+
+/* Benefits */
+
+#benefits{
+  justify-content: center;
+  align-items: center;
+  background-color: #9792E4;
+}
+
+#benefits h2{
+    color: white;
+}
+
+#benefits .container{
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+#benefits .card{
+  height: 395px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+@media screen and (min-width:768px){
+  #benefits .container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #benefits .card{
+    height: 415px;
+    width: 47%;
+  }
+
+  #benefits h2{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:1200px){
+  #benefits .card{
+    width: 32%;
+  }
+}
