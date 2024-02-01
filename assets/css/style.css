@@ -341,7 +341,7 @@ header .container{
 
 @media screen and (min-width:1200px){
   #get-started .container{
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -382,6 +382,6 @@ footer span a{
 
 @media screen and (min-width:1200px){
   footer .container{
-    width: 32%;
+    width: 20%;
   }
 }
