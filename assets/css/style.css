@@ -74,6 +74,10 @@ header .container{
     justify-content: flex-end;
     align-items: center;;
   }
+
+  header .container{
+    width: 60%;
+  }
 }
 
 /* Hero */
@@ -131,6 +135,10 @@ header .container{
     width: 31%;
   }
 
+  #hero .container{
+    width: 60%;
+  }
+
   #hero .card{
     width: calc(93% / 3);
   }
@@ -163,6 +171,7 @@ header .container{
 
 @media screen and (min-width:1200px){
   #strategic-planning .container{
+    width: 60%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
@@ -200,6 +209,12 @@ header .container{
 @media screen and (min-width:768px){
   #testimonials .card{
     height: 280px;
+  }
+}
+
+@media screen and (min-width:1200px){
+  #testimonials .container{
+    width: 60%;
   }
 }
 
@@ -247,6 +262,10 @@ header .container{
 }
 
 @media screen and (min-width:1200px){
+  #benefits .container{
+    width: 60%;
+  }
+  
   #benefits .card{
     width: 32%;
   }
