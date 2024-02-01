@@ -93,11 +93,11 @@ header .container{
 
 @media screen and (min-width:768px){
   #hero .container .card:first-of-type{
-    width: 75%;
+    width: 85%;
   }
 
   #hero .container .card:nth-of-type(2){
-    width: 25%;
+    width: 15%;
   }
   #hero .card{
     width: calc(100% / 3);
@@ -112,10 +112,14 @@ header .container{
 
 @media screen and (min-width:1200px){
   #hero .container .card:first-of-type{
-    width: 750px;
+    width: 75%;
   }
 
   #hero .container .card:nth-of-type(2){
-    width: 360px;
+    width: 25%;
+  }
+
+  #hero .card{
+    width: calc(100% / 3);
   }
 }
