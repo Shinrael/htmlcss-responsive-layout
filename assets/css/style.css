@@ -38,19 +38,22 @@ header .container{
 }
 
 .logo{
-  width: 30%;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
   height: 90%;
   
 }
 
 .menu-panino{
-  width: 70%;
+  justify-content: flex-end;
+  align-items: center;
+  width: 65%;
   height: 90%;
-  display: block;
 }
 
 .menu{
-  width: 70%;
+  width: 65%;
   height: 90%;
   display: none;
 }
@@ -60,10 +63,59 @@ header .container{
     display: none;
   }
   .menu{
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;;
   }
 }
 
 /* Hero */
 
+#hero{
+  justify-content: center;
+  align-items: center;
+}
 
+#hero .container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card{
+  width: 95%;
+  height: 365px;
+  background-color: #B5DDFF;
+  margin: 20px 0;
+}
+
+@media screen and (min-width:768px){
+  #hero .container .card:first-of-type{
+    width: 75%;
+  }
+
+  #hero .container .card:nth-of-type(2){
+    width: 25%;
+  }
+  #hero .card{
+    width: calc(100% / 3);
+    margin: 10px 0;
+  }
+
+  #hero .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width:1200px){
+  #hero .container .card:first-of-type{
+    width: 750px;
+  }
+
+  #hero .container .card:nth-of-type(2){
+    width: 360px;
+  }
+}
