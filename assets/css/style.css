@@ -15,10 +15,17 @@ body{
 
 .container{
   width: 90%;
+  flex-direction: column;
 }
 
 .debug{
   border: 1px solid black;
+}
+
+.card{
+  width: 100%;
+  margin: 20px 0;
+  
 }
 
 /* Header */
@@ -31,7 +38,7 @@ header{
 }
 
 header .container{
-  
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 90%;
@@ -77,18 +84,16 @@ header .container{
 }
 
 #hero .container{
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.card{
-  width: 100%;
+#hero .card{
   height: 365px;
   background-color: #B5DDFF;
-  margin: 20px 0;
+  border-radius: 20px;
 }
 
 @media screen and (min-width:768px){
@@ -128,4 +133,27 @@ header .container{
   #hero .card{
     width: calc(93% / 3);
   }
+}
+
+/* Strategic Planning */
+
+#strategic-planning{
+  background-color: #9792E4;
+  justify-content: center;
+  align-items: center;
+}
+
+#strategic-planning .card{
+  height: 635px;
+  border-radius: 40px;
+}
+
+#strategic-planning .card.white{
+  height: 610px;
+  background-color: white;
+}
+
+#strategic-planning .container{
+  justify-content: space-between;
+  align-items: center;
 }
