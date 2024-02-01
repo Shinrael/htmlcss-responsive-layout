@@ -265,8 +265,53 @@ header .container{
   #benefits .container{
     width: 60%;
   }
-  
+
   #benefits .card{
     width: 32%;
+  }
+}
+
+/* About Us */
+
+#about-us{
+  justify-content: center;
+  align-items: center;
+}
+
+#about-us .container{
+  margin-top: 70px;
+  margin-bottom: 75px;
+}
+
+#about-us h2{
+  color: #9792E4;
+}
+
+#about-us p:first-of-type{
+  padding-bottom: 70px;
+}
+
+#about-us .img{
+  height: 415px;
+}
+
+@media screen and (min-width:768px){
+  #about-us .container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about-us .card.testo{
+    width: 55%;
+  }
+
+  #about-us .card.img{
+    width: 42%;
+  }
+}
+
+@media screen and (min-width:1200px){
+  #about-us .container{
+    width: 60%;
   }
 }
