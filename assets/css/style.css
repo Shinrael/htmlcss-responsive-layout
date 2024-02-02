@@ -274,9 +274,6 @@ header nav ul li .button-white a{
     flex-direction: column;
 }
 
-#strategic-planning .card .image-sp{
-  height: 70%;
-}
 
 #strategic-planning .card .image-sp img{
   object-fit: contain;
@@ -285,7 +282,7 @@ header nav ul li .button-white a{
 }
 
 #strategic-planning .card .text-sp{
-  height: 30%;
+  
   width: 92%;
   color: white;
 }
@@ -303,18 +300,15 @@ header nav ul li .button-white a{
   text-align: center;
 }
 
-#strategic-planning .card .image-wh-sp{
-  height: 60%;
-}
 
 #strategic-planning .card .image-wh-sp img{
   object-fit: contain;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
 #strategic-planning .card .text-wh-sp{
-  height: 40%;
+  
   width: 75%;
   font-style: italic;
 }
@@ -326,11 +320,12 @@ header nav ul li .button-white a{
 }
 
 #strategic-planning .card .text-wh-sp .arrow{
+  display: inline-block;
   font-size: 1.2rem;
   background-color: #9792E4;
   padding: 10px 15px;
   border-radius: 50%;
-  
+  margin: 20px 0 30px;
 }
 
 
@@ -349,7 +344,11 @@ header nav ul li .button-white a{
   }
 
   #strategic-planning .card{
-    width: 48%;
+    width: 48%;  
+  }
+
+  #strategic-planning .card .image-wh-sp img{
+    width: 60%;
   }
 }
 
