@@ -270,13 +270,67 @@ header nav ul li .button-white a{
 }
 
 #strategic-planning .card{
-  height: 635px;
-  border-radius: 40px;
+    border-radius: 40px;
+    flex-direction: column;
+}
+
+#strategic-planning .card .image-sp{
+  height: 70%;
+}
+
+#strategic-planning .card .image-sp img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#strategic-planning .card .text-sp{
+  height: 30%;
+  width: 92%;
+  color: white;
+}
+
+#strategic-planning .card .text-sp h2{
+  padding-bottom: 50px;
+  font-size: 2rem;
 }
 
 #strategic-planning .card.white{
-  height: 610px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+  text-align: center;
+}
+
+#strategic-planning .card .image-wh-sp{
+  height: 60%;
+}
+
+#strategic-planning .card .image-wh-sp img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#strategic-planning .card .text-wh-sp{
+  height: 40%;
+  width: 75%;
+  font-style: italic;
+}
+
+#strategic-planning .card .text-wh-sp h2{
+  padding-bottom: 25px;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+#strategic-planning .card .text-wh-sp .arrow{
+  font-size: 1.2rem;
+  background-color: #9792E4;
+  padding: 10px 15px;
+  border-radius: 50%;
+  
 }
 
 
