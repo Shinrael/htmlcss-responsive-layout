@@ -145,7 +145,7 @@ header nav ul li .button-white a{
   line-height: 20px;
 }
 
-#hero .card .card-internal{
+#hero .card .card-int-sx{
   width: 85%;
   flex-direction: column;
   justify-content: flex-end;
@@ -158,7 +158,7 @@ header nav ul li .button-white a{
   padding-bottom: 35px;
 }
 
-#hero .card .card-internal p:first-of-type{
+#hero .card .card-int-sx p:first-of-type{
   width: 85%;  
 }
 
@@ -192,7 +192,7 @@ header nav ul li .button-white a{
 
   #hero .container .card:nth-of-type(2){
     width: 31%;
-    height: 613px;
+    height: 675px;
     margin-right: 0;
   }
 
@@ -218,26 +218,29 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #hero .container .card:first-of-type{
+    flex-direction: row;
     width: 66%;
     height: 340px;
   }
 
-  #hero .card .card-internal{
-    width: 90%;
-    justify-content: flex-start; 
+  #hero .card .card-int-sx{
+    width: 60%;
+    justify-content: center; 
+    padding-left: 10px;
   }
 
-  #hero .card .card-internal img{
+  #hero .card .card-int-dx{
     justify-content: flex-end;
     align-items: flex-end;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+     
   }
 
-  #hero .card .card-internal p:first-of-type{
-    width: 66%;
+  #hero .card .card-int-dx img{
+    width: 100%;
   }
 
+  
   #hero .container .card:nth-of-type(2){
     width: 31%;
     height: 340px;
@@ -249,6 +252,7 @@ header nav ul li .button-white a{
 
   #hero .card{
     width: calc(93% / 3);
+
     height: 340px;
   }
 
