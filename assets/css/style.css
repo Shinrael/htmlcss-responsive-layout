@@ -28,6 +28,12 @@ body{
   
 }
 
+.button-white{
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
 /* Header */
 
 header{
@@ -47,7 +53,7 @@ header .container{
 .logo{
   justify-content: flex-start;
   align-items: center;
-  width: 25%;
+  width: 10%;
   height: 90%;
   
 }
@@ -55,14 +61,40 @@ header .container{
 .menu-panino{
   justify-content: flex-end;
   align-items: center;
-  width: 65%;
+  width: 80%;
   height: 90%;
 }
 
 .menu{
-  width: 65%;
+  width: 80%;
   height: 90%;
   display: none;
+}
+
+header .fa-bars{
+  color: white;
+  font-size: 1.5rem;
+}
+
+header nav ul{
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li{
+  margin: 0 15px;
+  margin-right: 0;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+header nav ul li .button-white a{
+  color: black;
 }
 
 @media screen and (min-width:1200px){
