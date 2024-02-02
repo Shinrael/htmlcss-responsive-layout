@@ -116,7 +116,7 @@ header nav ul li .button-white a{
   }
 
   header .container{
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -219,18 +219,41 @@ header nav ul li .button-white a{
 @media screen and (min-width:1200px){
   #hero .container .card:first-of-type{
     width: 66%;
+    height: 340px;
+  }
+
+  #hero .card .card-internal{
+    width: 90%;
+    justify-content: flex-start; 
+  }
+
+  #hero .card .card-internal img{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    height: 50%;
+  }
+
+  #hero .card .card-internal p:first-of-type{
+    width: 66%;
   }
 
   #hero .container .card:nth-of-type(2){
     width: 31%;
+    height: 340px;
   }
 
   #hero .container{
-    width: 60%;
+    width: 80%;
   }
 
   #hero .card{
     width: calc(93% / 3);
+    height: 340px;
+  }
+
+  #hero .card p{
+    width: 90%;
   }
 }
 
@@ -261,7 +284,7 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #strategic-planning .container{
-    width: 60%;
+    width: 80%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
@@ -304,7 +327,7 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #testimonials .container{
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -353,7 +376,7 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #benefits .container{
-    width: 60%;
+    width: 80%;
   }
 
   #benefits .card{
@@ -402,7 +425,7 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #about-us .container{
-    width: 60%;
+    width: 80%;
   }
 }
 
