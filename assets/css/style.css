@@ -439,6 +439,14 @@ header nav ul li .button-white a{
   #testimonials .container{
     width: 80%;
   }
+
+  #testimonials .container .card .image-t{
+    width: 20%;
+  }
+
+  #testimonials .container .card .text-t{
+    width: 80%;
+  }
 }
 
 /* Benefits */
