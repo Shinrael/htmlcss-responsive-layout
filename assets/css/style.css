@@ -34,6 +34,14 @@ body{
   border-radius: 20px;
 }
 
+.button-blue{
+  background-color:#0084FD;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 60px;
+  margin-bottom: 40px;
+}
+
 /* Header */
 
 header{
@@ -127,9 +135,41 @@ header nav ul li .button-white a{
 }
 
 #hero .card{
-  height: 365px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
   background-color: #B5DDFF;
   border-radius: 20px;
+  padding-top: 30px;
+  line-height: 20px;
+}
+
+#hero .card .card-internal{
+  width: 85%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+#hero .card .card-internal h2{
+  color: #0084FD;
+  padding-bottom: 35px;
+}
+
+#hero .card .card-internal p{
+  font-weight: bold;
+  color: #5A6E7F;
+  width: 85%;
+  padding-bottom: 35px;
+  
+}
+
+#hero .card img{
+  object-fit: cover;
+  width: 80%;
+  height: 30%;
+  padding-left: 10px;
 }
 
 
