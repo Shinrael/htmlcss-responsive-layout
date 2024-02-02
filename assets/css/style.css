@@ -136,9 +136,9 @@ header nav ul li .button-white a{
 
 #hero .card{
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   background-color: #B5DDFF;
   border-radius: 20px;
   padding-top: 30px;
@@ -150,19 +150,23 @@ header nav ul li .button-white a{
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  text-align: left;
 }
 
-#hero .card .card-internal h2{
+#hero .card h2{
   color: #0084FD;
   padding-bottom: 35px;
 }
 
-#hero .card .card-internal p{
+#hero .card .card-internal p:first-of-type{
+  width: 85%;  
+}
+
+#hero .card p{
+  width: 75%;
   font-weight: bold;
   color: #5A6E7F;
-  width: 85%;
   padding-bottom: 35px;
-  
 }
 
 #hero .card img{
@@ -171,6 +175,14 @@ header nav ul li .button-white a{
   height: 30%;
   padding-left: 10px;
 }
+
+#hero .card .icon{
+  color: #0084FD;
+  font-size: 5rem;
+  padding-bottom: 30px;
+}
+
+
 
 
 @media screen and (min-width:768px){
