@@ -459,6 +459,9 @@ header nav ul li .button-white a{
 
 #benefits h2{
     color: white;
+    font-size: 2.1rem;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #benefits .container{
@@ -469,9 +472,38 @@ header nav ul li .button-white a{
 }
 
 #benefits .card{
-  height: 395px;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: white;
   border-radius: 20px;
+}
+
+#benefits .card h2{
+  font-size: 3rem;
+  color: #9792E4;
+  padding: 35px 0 30px 30px;
+}
+
+#benefits .card h3{
+  font-size: 1.5rem;
+  color: #9792E4;
+  padding: 0 0 25px 30px;
+}
+
+#benefits .card p{
+  color: #737373;
+  padding: 0 60px 30px 30px;
+  line-height: 1.5rem;
+}
+
+#benefits .card .purple-button{
+  background-color: #9792E4;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 @media screen and (min-width:768px){
