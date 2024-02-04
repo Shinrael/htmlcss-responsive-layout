@@ -713,6 +713,8 @@ header nav ul li .button-white a{
 
 #get-started .card .button-white{
   display: inline-block;
+  color: #9792E4;
+  font-weight: bold;
   padding: 20px 90px;
   border-radius: 30px;
 }
@@ -730,6 +732,29 @@ header nav ul li .button-white a{
   #get-started .container{
     width: 80%;
   }
+
+  #get-started .card .title-gs{
+    padding-bottom: 0;
+    letter-spacing: .2rem;
+  }
+
+  #get-started .card h3{
+    font-size: 2.8rem;
+    padding: 25px 0 50px;
+    }
+
+    #get-started .card h2{
+      font-size: 6rem;
+    }
+
+    #get-started .card p{
+      font-size: 1.2rem;
+    }
+
+    #get-started .card .button-white{
+      font-size: 1.2rem;
+      letter-spacing: .2rem;
+    }
 }
 
 @media screen and (min-width:1200px){
