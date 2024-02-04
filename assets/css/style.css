@@ -759,7 +759,15 @@ header nav ul li .button-white a{
 
 @media screen and (min-width:1200px){
   #get-started .container{
-    width: 30%;
+    width: 47%;
+  }
+
+  #get-started .card h3{
+    padding: 20px 0 30px;
+  }
+
+  #get-started .card h2{
+    padding-bottom: 30px;
   }
 }
 
@@ -800,6 +808,6 @@ footer span a{
 
 @media screen and (min-width:1200px){
   footer .container{
-    width: 20%;
+    width: 30%;
   }
 }
