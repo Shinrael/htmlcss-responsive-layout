@@ -633,6 +633,22 @@ header nav ul li .button-white a{
   #about-us .card.img{
     width: 42%;
   }
+
+  #about-us .img .image-au img{
+    width: 230px;
+    height: 230px;
+  }
+
+  #about-us .img .image-au span{
+    position: absolute;
+    top: 0;
+    left: 170px;
+  }
+
+  #about-us .card .quote-au p{
+    line-height: 2.5rem;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width:1200px){
