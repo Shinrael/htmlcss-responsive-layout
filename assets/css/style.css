@@ -42,6 +42,13 @@ body{
   margin-bottom: 40px;
 }
 
+.purple-button{
+  background-color: #9792E4;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: white;
+}
+
 /* Header */
 
 header{
@@ -497,12 +504,8 @@ header nav ul li .button-white a{
 }
 
 #benefits .card .purple-button{
-  background-color: #9792E4;
   margin-left: 30px;
-  margin-bottom: 30px;
-  padding: 10px 50px;
-  border-radius: 20px;
-  color: white;
+  margin-bottom: 30px; 
   font-weight: bold;
 }
 
@@ -562,16 +565,59 @@ header nav ul li .button-white a{
   margin-bottom: 75px;
 }
 
+#about-us .card.img{
+  flex-direction: column;
+}
 #about-us h2{
   color: #9792E4;
+  font-size: 3rem;
+  padding-bottom: 50px;
 }
 
-#about-us p:first-of-type{
-  padding-bottom: 70px;
+#about-us .card.text p{
+  line-height: 2.5rem;
+  font-size: 1.1rem;
 }
 
-#about-us .img{
-  height: 415px;
+#about-us .card.text p:first-of-type{
+  padding-bottom: 60px;
+}
+
+#about-us .img .image-au{
+  position: relative;
+}
+
+#about-us .img .image-au span{
+  font-size: 5rem;
+  color:#9792E4;
+  position: absolute;
+  top: 0;
+  left: 130px;
+}
+
+#about-us .img .image-au img{
+  border-radius: 50%;
+  object-fit: cover;
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+}
+
+#about-us .card .quote-au p{
+  color:#9792E4;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 2rem;
+  padding: 20px 0 20px;
+}
+
+#about-us .card .quote-au .purple-button{
+  display: inline-block;
+  padding: 7px 15px;
+}
+
+#about-us .fa-linkedin{
+  padding-right: 5px;
 }
 
 @media screen and (min-width:768px){
@@ -580,7 +626,7 @@ header nav ul li .button-white a{
     justify-content: space-between;
   }
 
-  #about-us .card.testo{
+  #about-us .card.text{
     width: 55%;
   }
 
