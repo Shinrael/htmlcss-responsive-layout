@@ -626,6 +626,10 @@ header nav ul li .button-white a{
     justify-content: space-between;
   }
 
+  #about-us h2{
+    font-size: 4rem;
+  }
+
   #about-us .card.text{
     width: 55%;
   }
@@ -654,6 +658,14 @@ header nav ul li .button-white a{
 @media screen and (min-width:1200px){
   #about-us .container{
     width: 80%;
+  }
+
+  #about-us .card.text{
+    width: 55%;
+  }
+
+  #about-us .card.img{
+    width: 40%;
   }
 }
 
